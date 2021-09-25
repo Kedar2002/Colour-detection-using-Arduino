@@ -13,7 +13,7 @@ void setup()
   digitalWrite(s1,HIGH);
   
   Serial.begin(9600);
-  Serial.println("MJRoBot Color Detector");
+  Serial.println("Color Detector");
   startTiming = millis();
   }
   
