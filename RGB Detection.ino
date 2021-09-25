@@ -2,12 +2,12 @@ void getColor()
 {  
   readRGB();
   
-        if (red > 8 && red < 18 && grn > 9 && grn < 19 && blu > 8 && blu < 16) color = "WHITE";
-  else if (red > 80 && red < 125 && grn > 90 && grn < 125 && blu > 80 && blu < 125) color = "BLACK";
-  else if (red > 12 && red < 30 && grn > 40 && grn < 70 && blu > 33 && blu < 70) color = "RED";
-  else if (red > 50 && red < 95 && grn > 35 && grn < 70 && blu > 45 && blu < 85) color = "GREEN";
-  else if (red > 10 && red < 20 && grn > 10 && grn < 25 && blu > 20 && blu < 38) color = "YELLOW";
-  else if (red > 65 && red < 125 && grn > 65 && grn < 115 && blu > 32 && blu < 65) color = "BLUE";
+        if (red >= 3 && red <= 6 && grn >= 4 && grn <= 7 && blu >= 3 && blu <= 6) color = "WHITE";
+  else if (red >= 30 && red <= 37 && grn >= 38 && grn <= 45 && blu >= 30 && blu <= 37) color = "BLACK";
+  else if (red >= 5 && red <= 9 && grn >= 15 && grn <= 20 && blu >= 13 && blu <= 17) color = "RED";
+  else if (red >= 12 && red <= 16 && grn >= 14 && grn <= 18 && blu >= 12 && blu <= 16) color = "GREEN";
+  else if (red >= 4 && red <= 9 && grn >= 7 && grn <= 10 && blu >= 9 && blu <= 15) color = "YELLOW";
+  else if (red >= 10 && red <= 17 && grn >= 13 && grn <= 18 && blu >= 7 && blu <= 10) color = "BLUE";
   else  color = "NO_COLOR";
 }
 
